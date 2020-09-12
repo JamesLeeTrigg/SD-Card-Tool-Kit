@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE268531250D1F7300720D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE268530250D1F7300720D1A /* AppDelegate.swift */; };
+		FE268533250D1F7300720D1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE268532250D1F7300720D1A /* ContentView.swift */; };
+		FE268536250D1F7300720D1A /* SD_Card_Tool_Kit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE268534250D1F7300720D1A /* SD_Card_Tool_Kit.xcdatamodeld */; };
+		FE268538250D1F7400720D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE268537250D1F7400720D1A /* Assets.xcassets */; };
+		FE26853B250D1F7400720D1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE26853A250D1F7400720D1A /* Preview Assets.xcassets */; };
+		FE26853E250D1F7400720D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE26853C250D1F7400720D1A /* Main.storyboard */; };
+		FE26854A250D1F7400720D1A /* SD_Card_Tool_KitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE268549250D1F7400720D1A /* SD_Card_Tool_KitTests.swift */; };
+		FE268555250D1F7400720D1A /* SD_Card_Tool_KitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE268554250D1F7400720D1A /* SD_Card_Tool_KitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE268546250D1F7400720D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE268525250D1F7200720D1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE26852C250D1F7200720D1A;
+			remoteInfo = "SD Card Tool Kit";
+		};
+		FE268551250D1F7400720D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE268525250D1F7200720D1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE26852C250D1F7200720D1A;
+			remoteInfo = "SD Card Tool Kit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE26852D250D1F7300720D1A /* SD Card Tool Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SD Card Tool Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE268530250D1F7300720D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE268532250D1F7300720D1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE268535250D1F7300720D1A /* SD_Card_Tool_Kit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SD_Card_Tool_Kit.xcdatamodel; sourceTree = "<group>"; };
+		FE268537250D1F7400720D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE26853A250D1F7400720D1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE26853D250D1F7400720D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE26853F250D1F7400720D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE268540250D1F7400720D1A /* SD_Card_Tool_Kit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SD_Card_Tool_Kit.entitlements; sourceTree = "<group>"; };
+		FE268545250D1F7400720D1A /* SD Card Tool KitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SD Card Tool KitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE268549250D1F7400720D1A /* SD_Card_Tool_KitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Card_Tool_KitTests.swift; sourceTree = "<group>"; };
+		FE26854B250D1F7400720D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE268550250D1F7400720D1A /* SD Card Tool KitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SD Card Tool KitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE268554250D1F7400720D1A /* SD_Card_Tool_KitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Card_Tool_KitUITests.swift; sourceTree = "<group>"; };
+		FE268556250D1F7400720D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE26852A250D1F7200720D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE268542250D1F7400720D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE26854D250D1F7400720D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE268524250D1F7200720D1A = {
+			isa = PBXGroup;
+			children = (
+				FE26852F250D1F7300720D1A /* SD Card Tool Kit */,
+				FE268548250D1F7400720D1A /* SD Card Tool KitTests */,
+				FE268553250D1F7400720D1A /* SD Card Tool KitUITests */,
+				FE26852E250D1F7300720D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE26852E250D1F7300720D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE26852D250D1F7300720D1A /* SD Card Tool Kit.app */,
+				FE268545250D1F7400720D1A /* SD Card Tool KitTests.xctest */,
+				FE268550250D1F7400720D1A /* SD Card Tool KitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE26852F250D1F7300720D1A /* SD Card Tool Kit */ = {
+			isa = PBXGroup;
+			children = (
+				FE268530250D1F7300720D1A /* AppDelegate.swift */,
+				FE268532250D1F7300720D1A /* ContentView.swift */,
+				FE268537250D1F7400720D1A /* Assets.xcassets */,
+				FE26853C250D1F7400720D1A /* Main.storyboard */,
+				FE26853F250D1F7400720D1A /* Info.plist */,
+				FE268540250D1F7400720D1A /* SD_Card_Tool_Kit.entitlements */,
+				FE268534250D1F7300720D1A /* SD_Card_Tool_Kit.xcdatamodeld */,
+				FE268539250D1F7400720D1A /* Preview Content */,
+			);
+			path = "SD Card Tool Kit";
+			sourceTree = "<group>";
+		};
+		FE268539250D1F7400720D1A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE26853A250D1F7400720D1A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE268548250D1F7400720D1A /* SD Card Tool KitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE268549250D1F7400720D1A /* SD_Card_Tool_KitTests.swift */,
+				FE26854B250D1F7400720D1A /* Info.plist */,
+			);
+			path = "SD Card Tool KitTests";
+			sourceTree = "<group>";
+		};
+		FE268553250D1F7400720D1A /* SD Card Tool KitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE268554250D1F7400720D1A /* SD_Card_Tool_KitUITests.swift */,
+				FE268556250D1F7400720D1A /* Info.plist */,
+			);
+			path = "SD Card Tool KitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE26852C250D1F7200720D1A /* SD Card Tool Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE268559250D1F7400720D1A /* Build configuration list for PBXNativeTarget "SD Card Tool Kit" */;
+			buildPhases = (
+				FE268529250D1F7200720D1A /* Sources */,
+				FE26852A250D1F7200720D1A /* Frameworks */,
+				FE26852B250D1F7200720D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SD Card Tool Kit";
+			productName = "SD Card Tool Kit";
+			productReference = FE26852D250D1F7300720D1A /* SD Card Tool Kit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE268544250D1F7400720D1A /* SD Card Tool KitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE26855C250D1F7400720D1A /* Build configuration list for PBXNativeTarget "SD Card Tool KitTests" */;
+			buildPhases = (
+				FE268541250D1F7400720D1A /* Sources */,
+				FE268542250D1F7400720D1A /* Frameworks */,
+				FE268543250D1F7400720D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE268547250D1F7400720D1A /* PBXTargetDependency */,
+			);
+			name = "SD Card Tool KitTests";
+			productName = "SD Card Tool KitTests";
+			productReference = FE268545250D1F7400720D1A /* SD Card Tool KitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE26854F250D1F7400720D1A /* SD Card Tool KitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE26855F250D1F7400720D1A /* Build configuration list for PBXNativeTarget "SD Card Tool KitUITests" */;
+			buildPhases = (
+				FE26854C250D1F7400720D1A /* Sources */,
+				FE26854D250D1F7400720D1A /* Frameworks */,
+				FE26854E250D1F7400720D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE268552250D1F7400720D1A /* PBXTargetDependency */,
+			);
+			name = "SD Card Tool KitUITests";
+			productName = "SD Card Tool KitUITests";
+			productReference = FE268550250D1F7400720D1A /* SD Card Tool KitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE268525250D1F7200720D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "James Trigg";
+				TargetAttributes = {
+					FE26852C250D1F7200720D1A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					FE268544250D1F7400720D1A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = FE26852C250D1F7200720D1A;
+					};
+					FE26854F250D1F7400720D1A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = FE26852C250D1F7200720D1A;
+					};
+				};
+			};
+			buildConfigurationList = FE268528250D1F7200720D1A /* Build configuration list for PBXProject "SD Card Tool Kit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE268524250D1F7200720D1A;
+			productRefGroup = FE26852E250D1F7300720D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE26852C250D1F7200720D1A /* SD Card Tool Kit */,
+				FE268544250D1F7400720D1A /* SD Card Tool KitTests */,
+				FE26854F250D1F7400720D1A /* SD Card Tool KitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE26852B250D1F7200720D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE26853E250D1F7400720D1A /* Main.storyboard in Resources */,
+				FE26853B250D1F7400720D1A /* Preview Assets.xcassets in Resources */,
+				FE268538250D1F7400720D1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE268543250D1F7400720D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE26854E250D1F7400720D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE268529250D1F7200720D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE268533250D1F7300720D1A /* ContentView.swift in Sources */,
+				FE268536250D1F7300720D1A /* SD_Card_Tool_Kit.xcdatamodeld in Sources */,
+				FE268531250D1F7300720D1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE268541250D1F7400720D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE26854A250D1F7400720D1A /* SD_Card_Tool_KitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE26854C250D1F7400720D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE268555250D1F7400720D1A /* SD_Card_Tool_KitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE268547250D1F7400720D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE26852C250D1F7200720D1A /* SD Card Tool Kit */;
+			targetProxy = FE268546250D1F7400720D1A /* PBXContainerItemProxy */;
+		};
+		FE268552250D1F7400720D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE26852C250D1F7200720D1A /* SD Card Tool Kit */;
+			targetProxy = FE268551250D1F7400720D1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE26853C250D1F7400720D1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE26853D250D1F7400720D1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE268557250D1F7400720D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE268558250D1F7400720D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FE26855A250D1F7400720D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SD Card Tool Kit/SD_Card_Tool_Kit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SD Card Tool Kit/Preview Content\"";
+				DEVELOPMENT_TEAM = F6FM6AKHXL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SD Card Tool Kit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "jamestrigg.SD-Card-Tool-Kit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FE26855B250D1F7400720D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SD Card Tool Kit/SD_Card_Tool_Kit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SD Card Tool Kit/Preview Content\"";
+				DEVELOPMENT_TEAM = F6FM6AKHXL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SD Card Tool Kit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "jamestrigg.SD-Card-Tool-Kit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FE26855D250D1F7400720D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F6FM6AKHXL;
+				INFOPLIST_FILE = "SD Card Tool KitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "jamestrigg.SD-Card-Tool-KitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SD Card Tool Kit.app/Contents/MacOS/SD Card Tool Kit";
+			};
+			name = Debug;
+		};
+		FE26855E250D1F7400720D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F6FM6AKHXL;
+				INFOPLIST_FILE = "SD Card Tool KitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "jamestrigg.SD-Card-Tool-KitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SD Card Tool Kit.app/Contents/MacOS/SD Card Tool Kit";
+			};
+			name = Release;
+		};
+		FE268560250D1F7400720D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F6FM6AKHXL;
+				INFOPLIST_FILE = "SD Card Tool KitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jamestrigg.SD-Card-Tool-KitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SD Card Tool Kit";
+			};
+			name = Debug;
+		};
+		FE268561250D1F7400720D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F6FM6AKHXL;
+				INFOPLIST_FILE = "SD Card Tool KitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jamestrigg.SD-Card-Tool-KitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SD Card Tool Kit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE268528250D1F7200720D1A /* Build configuration list for PBXProject "SD Card Tool Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE268557250D1F7400720D1A /* Debug */,
+				FE268558250D1F7400720D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE268559250D1F7400720D1A /* Build configuration list for PBXNativeTarget "SD Card Tool Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE26855A250D1F7400720D1A /* Debug */,
+				FE26855B250D1F7400720D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE26855C250D1F7400720D1A /* Build configuration list for PBXNativeTarget "SD Card Tool KitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE26855D250D1F7400720D1A /* Debug */,
+				FE26855E250D1F7400720D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE26855F250D1F7400720D1A /* Build configuration list for PBXNativeTarget "SD Card Tool KitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE268560250D1F7400720D1A /* Debug */,
+				FE268561250D1F7400720D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE268534250D1F7300720D1A /* SD_Card_Tool_Kit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE268535250D1F7300720D1A /* SD_Card_Tool_Kit.xcdatamodel */,
+			);
+			currentVersion = FE268535250D1F7300720D1A /* SD_Card_Tool_Kit.xcdatamodel */;
+			path = SD_Card_Tool_Kit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE268525250D1F7200720D1A /* Project object */;
+}
