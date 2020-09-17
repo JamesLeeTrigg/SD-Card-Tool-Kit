@@ -15,6 +15,8 @@
 		FE26853E250D1F7400720D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE26853C250D1F7400720D1A /* Main.storyboard */; };
 		FE26854A250D1F7400720D1A /* SD_Card_Tool_KitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE268549250D1F7400720D1A /* SD_Card_Tool_KitTests.swift */; };
 		FE268555250D1F7400720D1A /* SD_Card_Tool_KitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE268554250D1F7400720D1A /* SD_Card_Tool_KitUITests.swift */; };
+		FE268565250D22F600720D1A /* SDCardTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE268564250D22F600720D1A /* SDCardTools.swift */; };
+		FE268568250D451B00720D1A /* DriveList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE268567250D451B00720D1A /* DriveList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		FE268550250D1F7400720D1A /* SD Card Tool KitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SD Card Tool KitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE268554250D1F7400720D1A /* SD_Card_Tool_KitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Card_Tool_KitUITests.swift; sourceTree = "<group>"; };
 		FE268556250D1F7400720D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE268564250D22F600720D1A /* SDCardTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDCardTools.swift; sourceTree = "<group>"; };
+		FE268567250D451B00720D1A /* DriveList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,9 @@
 		FE26852F250D1F7300720D1A /* SD Card Tool Kit */ = {
 			isa = PBXGroup;
 			children = (
+				FE268566250D44F400720D1A /* Views */,
+				FE268563250D22BE00720D1A /* Services */,
 				FE268530250D1F7300720D1A /* AppDelegate.swift */,
-				FE268532250D1F7300720D1A /* ContentView.swift */,
 				FE268537250D1F7400720D1A /* Assets.xcassets */,
 				FE26853C250D1F7400720D1A /* Main.storyboard */,
 				FE26853F250D1F7400720D1A /* Info.plist */,
@@ -136,6 +141,23 @@
 				FE268556250D1F7400720D1A /* Info.plist */,
 			);
 			path = "SD Card Tool KitUITests";
+			sourceTree = "<group>";
+		};
+		FE268563250D22BE00720D1A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FE268564250D22F600720D1A /* SDCardTools.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		FE268566250D44F400720D1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE268532250D1F7300720D1A /* ContentView.swift */,
+				FE268567250D451B00720D1A /* DriveList.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +293,8 @@
 			files = (
 				FE268533250D1F7300720D1A /* ContentView.swift in Sources */,
 				FE268536250D1F7300720D1A /* SD_Card_Tool_Kit.xcdatamodeld in Sources */,
+				FE268565250D22F600720D1A /* SDCardTools.swift in Sources */,
+				FE268568250D451B00720D1A /* DriveList.swift in Sources */,
 				FE268531250D1F7300720D1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
